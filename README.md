@@ -4,6 +4,8 @@ BBC BASIC implementations of the competitive programming group questions
 The repo no one asked for, but is being created anyway. For those that don't know, I have decided to attempt the problems featured in the UQ Computing Society's competitive programming group in a strange old language called BBC BASIC , mainly for a) the challenge of it, and b) I'm crazy. This is where I will share my implementations for those curious enough.
 
 ## Important info about these files
+I provide 2 files: a version with a `.bas` extension, and another without an extension. The one with the extension is a plain text version of the source, and the extensionless file is the actual source.
+
 Beeb BASIC, like most dialects of BASIC, doesn't store its source files as plain text, but rather in what's called a "tokenized form", which is sort of like a compiled bytecode format but only the language keywords get compiled into byte sequences. This means that you cannot open these in most normal text editors (except those on RISC OS).
 
 ## How to run these
