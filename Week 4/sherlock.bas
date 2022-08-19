@@ -7,10 +7,10 @@ fd% = OPENIN(argvOne$)
 tStr$ = GET$#fd%
 t% = VAL(tStr$)
 FOR tItr% = 0 TO t% - 1
-n% = VAL(GET$#fd%)
-arr$ = GET$#fd%
-result$ = FNbalanced_sums(n%, arr$)
-PRINT result$
+  n% = VAL(GET$#fd%)
+  arr$ = GET$#fd%
+  result$ = FNbalanced_sums(n%, arr$)
+  PRINT result$
 NEXT tItr%
 CLOSE#fd%
 END
