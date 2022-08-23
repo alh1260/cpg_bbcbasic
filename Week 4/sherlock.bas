@@ -17,7 +17,7 @@ END
 :
 DEF PROCerror
   IF fd% <> 0 THEN CLOSE#fd%
-  REPORT: PRINT " at line "; ERL
+  REPORT: PRINT " at line "; ERL: END
 ENDPROC
 :
 DEF FNbalanced_sums(n%, arrStr$)
